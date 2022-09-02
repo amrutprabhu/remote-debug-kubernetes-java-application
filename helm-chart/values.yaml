@@ -1,0 +1,12 @@
+image:
+  repository: ghcr.io/amrutprabhu/remote-application
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "0.0.1-SNAPSHOT"
+
+
+service:
+  type: ClusterIP
+  port: 80
+
+
